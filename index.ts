@@ -7,5 +7,12 @@ interface Event {
 }
 
 class eventManager {
-  
+  events: Event[];
+
+  constructor() {
+    this.events = [];
+  }
+  createEvent(event: Event): void {
+    this.events.push(event);
+  }
 }
