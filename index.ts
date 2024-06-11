@@ -5,3 +5,7 @@ interface Event {
   guestLists: string;
   typeStyle: string;
 }
+
+class eventManager {
+  
+}
